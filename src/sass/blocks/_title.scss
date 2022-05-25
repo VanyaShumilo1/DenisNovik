@@ -1,0 +1,19 @@
+.title {
+    color: var(--main-black);
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+
+    &-fz47 {
+        font-size: 47px;
+        text-align: left;
+        line-height: 59px;
+    }
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}

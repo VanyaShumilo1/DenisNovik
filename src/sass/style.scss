@@ -1,21 +1,35 @@
 @import "libs/bootstrap-reboot.min";
-//@import "libs/animate";
-//@import "libs/slick";
-
 
 @import 'base/variables';
 @import 'base/mixins';
 @import "base/animations";
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gilroy', sans-serif;
 }
+
+:root {
+    --main-grey: #828282;
+    --main-black: #070707;
+}
+
 .container {
-    max-width: 1140px;
+    width: 945px;
     margin: 0 auto;
 }
 
+body {
+    font-size: 18px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+}
 
 
+@import "blocks/title";
+@import "blocks/header";
 
 @import "blocks/media";
