@@ -70,4 +70,22 @@
         display: flex;
     }
 
+
+    .portfolio {
+        &__item {
+            &-image {
+                width: 100%;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    .contact {
+        .button {
+            width: 100%;
+        }
+    }
+
 }

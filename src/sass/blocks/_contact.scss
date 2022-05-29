@@ -1,0 +1,23 @@
+.contact {
+    padding-top: 114px;
+    padding-bottom: 123px;
+    .subtitle {
+        margin-top: 30px;
+    }
+    .button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    &__socials {
+        display: flex;
+        justify-content: center;
+        gap: 61px;
+        margin-top: 86px;
+    }
+    .bottom {
+        color: var(--main-grey);
+        text-align: center;
+        margin-top: 45px;
+    }
+}

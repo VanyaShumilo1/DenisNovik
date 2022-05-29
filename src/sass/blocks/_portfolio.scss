@@ -1,0 +1,19 @@
+.portfolio {
+    padding: 100px 0;
+    background: #f7f7f7;
+    &__wrapper {
+        margin-top: 47px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    &__item {
+        &-link {
+            text-align: center;
+            text-decoration: underline;
+            margin-top: 44px;
+        }
+    }
+
+}
