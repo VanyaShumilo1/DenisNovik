@@ -1,0 +1,14 @@
+.about {
+    background: #F6F6F6;
+    margin-top: 105px;
+    padding-top: 120px;
+    padding-bottom: 107px;
+    &__content {
+        margin: 20px auto 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 485px;
+    }
+}
